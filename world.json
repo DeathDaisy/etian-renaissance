@@ -1,0 +1,13 @@
+{
+  "title": "Etian Renaissance",
+  "id": "etian-renaissance",
+  "system": "gurps",
+  "description": "<p></p>",
+  "coreVersion": "10.286",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.286"
+  },
+  "systemVersion": "0.15.6",
+  "background": "worlds/etian-renaissance/TheWest.png"
+}
