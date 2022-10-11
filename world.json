@@ -2,6 +2,7 @@
   "title": "Etian Renaissance",
   "id": "etian-renaissance",
   "system": "gurps",
+  "url": "https://github.com/DeathDaisy/etian-renaissance",
   "description": "<p></p>",
   "coreVersion": "10.286",
   "compatibility": {
@@ -9,6 +10,6 @@
     "verified": "10.286"
   },
   "systemVersion": "0.15.6",
-  "background": "worlds/etian-renaissance/TheWest.png"
+  "background": "worlds/etian-renaissance/TheWest.png",
   "download": "https://github.com/DeathDaisy/etian-renaissance/archive/refs/heads/main.zip"
 }
