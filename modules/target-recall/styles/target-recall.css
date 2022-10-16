@@ -1,0 +1,69 @@
+.control-icon.no-target-recall {
+   background-color: rgba(255,0,0,0.4);
+}
+
+#target-recall-targets-window {
+   display: flex;
+   flex-direction: column-reverse;
+   position: fixed;
+   bottom: 10px;
+   right: 325px;
+   width: 250px;
+   margin: 0;
+   padding: 0;
+   z-index: 160;
+ }
+ 
+#target-recall-targets-window > div {
+   flex: 0 0 auto;
+   padding: 8px;
+ }
+
+#target-recall-targets-window ol {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+  display: flex; 
+  flex-direction: column;
+}
+
+#target-recall-targets-window li {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-14);
+  display: flex;
+  flex: 1 0 100%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#target-recall-targets-window img {
+  border-width: 0px; 
+  width: 25px; 
+  height: 25px; 
+  vertical-align: text-bottom;  
+  margin-right: 8px;
+}
+
+.tr-ntfy-alias {
+  display: inline-block;
+  flex: 0 0 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+}
+
+.tr-crrt-alias {
+  display: inline-block;
+  flex: 0 0 85%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: hidden;
+  font-weight: bold;
+}
+
+.tr-ntfy-dist { 
+  display: flex;
+  flex: 0 0 15%;
+  justify-content: flex-end;
+}

@@ -1,0 +1,20 @@
+{
+  "BACKPACK_MANAGER": {
+    "PLACE_UUID_HERE": "Place the uuid of an actor here.",
+    "NO_ACTOR_FROM_UUID": "A uuid was found in {item}, but the corresponding actor was not.",
+    "NOT_OWNER": "You do not have sufficient ownership over the container actor.",
+    "BACKPACK_IS_SELF": "You cannot use yourself as a backpack.",
+    "TITLE": "{actor}'s {bag}",
+    "STOW_HEADER": "The container and how much it can contain.",
+    "STOWED": "Stowed",
+    "SHOW": "Show the item's sheet.",
+    "LESS": "Reduce the quantity to stow or retrieve. Modify the amount by holding Shift or Ctrl.",
+    "MORE": "Increase the quantity to stow or retrieve. Modify the amount by holding Shift or Ctrl.",
+    "VALUE": "The current value you are stowing or retrieving.",
+    "INVENTORY_HEADER": "Your inventory.",
+    "INVENTORY": "Inventory",
+    "STOW": "Stow this item in the container.",
+    "RETRIEVE": "Retrieve this item from the container.",
+    "DELETE": "Delete this item."
+  }
+}

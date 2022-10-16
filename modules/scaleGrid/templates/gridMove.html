@@ -1,0 +1,75 @@
+<style>
+    #grid-move-container {
+        margin-bottom: 20px;
+    }
+
+    #controls-container {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-items: start;
+        row-gap: 10px;
+        margin-top: 15px;
+    }
+
+    #move-controls-label {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #move-controls {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #scale-controls-label {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #scale-controls {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    form .form-group .form-fields .icon-button {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    .icon-button i {
+        margin-right: 0px;
+        width: 18px;
+    }
+</style>
+
+<form id="grid-move-container" autocomplete="off">
+    <p>Use the arrows to adjust the grid by small increments until it lines up the way you want.</p>
+
+    <div id="controls-container" class="form-group">
+        <span id="move-controls-label">Move:</span>
+        <div id="move-controls" class="form-fields">
+            <button id="move-left" class="icon-button" type="button" title="Move grid left">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button id="move-right" class="icon-button" type="button" title="Move grid right">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+            <button id="move-up" class="icon-button" type="button" title="Move grid up">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <button id="move-down" class="icon-button" type="button" title="Move grid down">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+        <span id="scale-controls-label">Scale:</span>
+        <div id="scale-controls" class="form-fields">
+            <button id="expand-grid" class="icon-button" type="button" title="Make grid bigger">
+                <i class="fas fa-arrows-alt"></i>
+            </button>
+            <button id="contract-grid" class="icon-button" type="button" title="Make grid smaller">
+                <i class="fas fa-compress-arrows-alt"></i>
+            </button>
+        </div>
+    </div>
+</form>

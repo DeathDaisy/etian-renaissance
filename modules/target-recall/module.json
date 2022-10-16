@@ -1,0 +1,37 @@
+{
+  "authors": [
+    {
+      "name": "napolitanod",
+      "flags": {}
+    }
+  ],
+  "changelog": "https://github.com/napolitanod/Target-Recall/releases",
+  "description": "Recalls the token's last target during combat. Includes target distance finder and target marker for ease of finding targets on combatant's turn.",
+  "esmodules": [
+    "scripts/index.js",
+    "scripts/target-recall.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "id": "target-recall",
+  "socket": true,
+  "styles": [
+    "styles/target-recall.css"
+  ],
+  "readme": "https://github.com/napolitanod/Target-Recall/blob/main/README.md",
+  "title": "Target Recall",
+  "version": "1.3.0",
+  "url": "https://github.com/napolitanod/Target-Recall",
+  "manifest": "https://github.com/napolitanod/Target-Recall/releases/latest/download/module.json",
+  "download": "https://github.com/napolitanod/Target-Recall/releases/download/1.3.0/module.zip"
+}

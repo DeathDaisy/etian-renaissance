@@ -1,0 +1,64 @@
+/* ---------------------------- */
+/*             Less             */
+/* This is your Less entry file */
+/* ---------------------------- */
+/* -------------------------- */
+/* Actor Combat Music
+/* -------------------------- */
+.app.combat-music div.playlist,
+.app.scene-music div.playlist {
+  display: flex;
+  flex: 0 0 96px;
+  padding: 2px;
+  border: 2px groove #eeede0;
+}
+.app.combat-music div.playlist > label,
+.app.scene-music div.playlist > label {
+  flex: 0 0 96px;
+  font-weight: bold;
+}
+.app.combat-music div.playlist .playlist-box,
+.app.scene-music div.playlist .playlist-box {
+  display: flex;
+  flex: 1 1 212px;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  justify-content: center;
+  justify-items: flex-start;
+  align-items: center;
+  padding: 2px;
+  border-left: 1px dotted black;
+}
+.app.combat-music div.playlist .playlist-box .item-content,
+.app.scene-music div.playlist .playlist-box .item-content {
+  flex: 1;
+  margin-right: 4px;
+}
+.app.combat-music div.playlist .playlist-box .item-content .playlist-item,
+.app.scene-music div.playlist .playlist-box .item-content .playlist-item {
+  flex: 1;
+}
+.app.combat-music div.playlist .playlist-box .item-content .playlist-item > *,
+.app.scene-music div.playlist .playlist-box .item-content .playlist-item > * {
+  margin-right: 4px;
+}
+.app.combat-music div.playlist .playlist-box .item-content .initial-track,
+.app.scene-music div.playlist .playlist-box .item-content .initial-track {
+  margin-right: 4px;
+}
+.app.combat-music div.playlist .playlist-box .item-content .priority,
+.app.scene-music div.playlist .playlist-box .item-content .priority {
+  flex: 0 0 80px;
+}
+.app.combat-music div.playlist .playlist-box .control,
+.app.scene-music div.playlist .playlist-box .control {
+  flex: 0;
+}
+.app.combat-music div.playlist .playlist-box .disabled,
+.app.scene-music div.playlist .playlist-box .disabled {
+  color: rgba(0, 0, 0, 0.5);
+}
+.app.combat-music div.playlist .help,
+.app.scene-music div.playlist .help {
+  margin-top: 8px;
+}

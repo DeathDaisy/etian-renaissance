@@ -1,0 +1,58 @@
+{
+  "id": "ddb-importer",
+  "title": "D&D Beyond Importer",
+  "license": "MIT License",
+  "description": "Import your dndbeyond.com characters, spells, items, monsters, encounters, and adventures!",
+  "version": "3.1.15",
+  "download": "https://github.com/mrprimate/ddb-importer/releases/download/3.1.15/ddb-importer.zip",
+  "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json",
+  "readme": "https://github.com/MrPrimate/ddb-importer/blob/main/README.md",
+  "changelog": "https://github.com/MrPrimate/ddb-importer/blob/main/CHANGELOG.md",
+  "url": "https://github.com/mrprimate/ddb-importer",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "discord": "https://discord.gg/WzPuRuDJVP",
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "2.0.1"
+        }
+      }
+    ]
+  },
+  "scripts": [
+    "vendor/jszip/jszip.min.js"
+  ],
+  "esmodules": [
+    "dist/main.js"
+  ],
+  "styles": [
+    "css/default.css",
+    "css/import.css",
+    "css/journal.css",
+    "css/notifications.css",
+    "css/adventure.css"
+  ],
+  "socket": true
+}

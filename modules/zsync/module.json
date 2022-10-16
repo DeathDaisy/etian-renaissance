@@ -1,0 +1,22 @@
+{
+  "title": "zSync",
+  "description": "A module that synchronises the z-index of tokens across clients.",
+  "authors": [
+    {
+      "name": "Richard Bellingham (Skimble)",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.6",
+  "scripts": [
+    "zsync.js"
+  ],
+  "socket": true,
+  "manifest": "https://raw.githubusercontent.com/Sk1mble/zsync/master/module.json",
+  "download": "https://github.com/Sk1mble/zsync/archive/v0.0.6.zip",
+  "id": "zsync",
+  "compatibility": {
+    "minimum": "10.275",
+    "verified": "10.288"
+  }
+}

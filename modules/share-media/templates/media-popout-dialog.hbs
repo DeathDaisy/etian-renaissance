@@ -1,0 +1,9 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    {{#if isVideo}}
+        <video playsinline src="{{image}}" style="width: 100%">
+    {{else}}
+        <figure class="flexcol">
+            <img src="{{image}}" {{#if showTitle}}alt="{{title}}"{{/if}}/>
+        </figure>
+    {{/if}}
+</form>

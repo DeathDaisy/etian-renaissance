@@ -1,0 +1,111 @@
+#fullscreen-layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: transparent;
+
+    &.immersive-mode {
+        z-index: 200;
+    }
+
+    &.hidden {
+        display: none;
+        pointer-events: none;
+    }
+
+    &.minimized {
+        pointer-events: none;
+
+        >.background,
+        >img,
+        >video {
+            display: none;
+        }
+
+        .buttons {
+            pointer-events: auto;
+        }
+    }
+
+    .buttons {
+        z-index: 3;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        opacity: .35;
+        transition: opacity .5s;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        .dismiss,
+        .minimize,
+        .maximize {
+            width: auto;
+            cursor: pointer;
+        }
+
+        .dismiss {
+            padding: 1px 15px;
+        }
+
+        .minimize,
+        .maximize {
+            padding: 1px 8px 1px 11px;
+
+            &.hidden {
+                display: none;
+            }
+        }
+    }
+
+    .title {
+        z-index: 3;
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 30px;
+        color: #FFFFFF;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+
+        &.hidden {
+            display: none;
+        }
+    }
+
+    .background {
+        z-index: 1;
+        position: fixed;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        filter: blur(8px);
+        backdrop-filter: blur(8px);
+    }
+
+    img, video {
+        z-index: 2;
+        position: fixed;
+        left: 0;
+        right: 0;
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+
+        &.disabled {
+            display: none;
+            pointer-events: none;
+        }
+    }
+}

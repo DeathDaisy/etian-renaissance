@@ -1,0 +1,23 @@
+{
+  "title": "Merge Walls",
+  "description": "Try and merge walls to reduce the number of wall segments",
+  "version": "10.0.3",
+  "authors": [
+    {
+      "name": "tposney",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "scripts": [
+    "mergewalls.js"
+  ],
+  "url": "https://gitlab.com/tposney/mergewalls/tree/master",
+  "manifest": "https://gitlab.com/tposney/mergewalls/raw/v10/module.json",
+  "download": "https://gitlab.com/tposney/mergewalls/raw/v10/mergewalls.zip",
+  "id": "mergewalls"
+}

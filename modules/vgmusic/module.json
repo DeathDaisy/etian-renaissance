@@ -1,0 +1,42 @@
+{
+  "title": "Video Game Music",
+  "description": "A playlist addon for FoundryVTT",
+  "version": "0.2.1",
+  "authors": [
+    {
+      "name": "Furyspark",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/vgmusic.js"
+  ],
+  "styles": [
+    "styles/vgmusic.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://gitlab.com/Furyspark/foundryvtt-vgmusic/-/raw/master/src/module.json",
+  "download": "https://gitlab.com/Furyspark/foundryvtt-vgmusic/-/raw/master/releases/0.2.1.zip",
+  "license": "MIT",
+  "id": "vgmusic",
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10.277",
+    "verified": "10"
+  }
+}

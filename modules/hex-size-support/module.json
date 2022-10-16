@@ -1,0 +1,49 @@
+{
+  "id": "hex-size-support",
+  "title": "Hex Token Size Support",
+  "description": "Improves support for hexagonal tokens of sizes greater than one by altering the grid snapping rules",
+  "authors": [
+    {
+      "name": "Kuenaimaku",
+      "email": "kuenaimaku@gmail.com",
+      "url": "https://github.com/Kuenaimaku",
+      "flags": {}
+    },
+    {
+      "name": "Ourobor",
+      "url": "https://github.com/Ourobor",
+      "flags": {}
+    }
+  ],
+  "version": "2.0.1",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.286"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.0.0.0",
+          "verified": "1.12.6.0"
+        }
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "hss.js"
+  ],
+  "url": "https://github.com/Kuenaimaku/hex-size-support.git",
+  "manifest": "https://github.com/Kuenaimaku/Hex-Size-Support/releases/latest/download/module.json",
+  "download": "https://github.com/Kuenaimaku/Hex-Size-Support/releases/download/v2.0.1/module.zip"
+}

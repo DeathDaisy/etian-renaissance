@@ -1,0 +1,76 @@
+{
+  "id": "about-face",
+  "title": "About Face",
+  "description": "Rotates Tokens and provide indicators for direction based on movement",
+  "version": "3.18.1",
+  "authors": [
+    {
+      "name": "Matheus Clemente (mclemente#5524)",
+      "discord": "mclemente#5524",
+      "flags": {}
+    },
+    {
+      "name": "Eadorin",
+      "flags": {}
+    },
+    {
+      "name": "Edzillion",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "about-face.js"
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "manifest": "https://github.com/mclemente/about-face/releases/latest/download/module.json",
+  "download": "https://github.com/mclemente/about-face/releases/download/v3.18.1/module.zip",
+  "url": "https://github.com/mclemente/about-face",
+  "changelog": "https://github.com/mclemente/about-face/releases",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json",
+      "flags": {}
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json",
+      "flags": {}
+    },
+    {
+      "lang": "fi",
+      "name": "Suomi",
+      "path": "lang/fi.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {
+          "verified": "1.12.6.0"
+        }
+      }
+    ]
+  }
+}
